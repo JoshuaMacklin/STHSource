@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
-import Banner from '../../components/Banner.astro';
+//import Banner from '../../components/Banner.astro';
 import { brand } from '../../config/brand';
 import { client } from '../../data/client';
 ---
@@ -10,7 +10,7 @@ import { client } from '../../data/client';
 <BaseLayout title="Contact" description={`Get in touch with ${brand.name}. Request a free quote or ask us a question.`}>
   <Header slot="header" />
 
-  <Banner title="Contact Us" />
+  <!-- <Banner title="Contact Us" /> -->
 
   <section class="py-section">
     <div class="mx-auto grid max-w-site grid-cols-1 gap-10 px-4 sm:px-6 lg:grid-cols-5 lg:gap-14">
@@ -120,8 +120,8 @@ import { client } from '../../data/client';
         <div>
           <h3 class="font-heading text-lg font-semibold text-text">Hours</h3>
           <p class="mt-1 text-text-muted">
-            Mon – Fri: 7:00 AM – 6:00 PM<br />
-            Sat: 8:00 AM – 2:00 PM<br />
+            Mon – Fri: 6:00 AM – 5:00 PM<br />
+            Sat: 7:00 AM – 4:00 PM<br />
             Sun: Closed<br />
             <span class="font-medium text-accent">24/7 Emergency Service Available</span>
           </p>

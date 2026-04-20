@@ -14,10 +14,10 @@
 
 export const brand = {
   // ── Site Identity ──────────────────────────────────────────────────────────
-  name: 'Small Business Starter',
-  tagline: 'Professional service you can trust.',
+  name: 'I\'m The San Tan Handyman',
+  tagline: 'The Professional handyman you can trust.',
   description:
-    'A fast, mobile-first small-business website template built with Astro 6 and Tailwind v4. Fully customisable for any trade or service business.',
+    "My commitment to quality workmanship ensures every project, big or small, is handled with meticulous attention to detail. Trust me to help bring your home improvement vision to life, enhancing your living space with professionalism and skill.",
   url: 'https://example.com',
   locale: 'en_US',
 

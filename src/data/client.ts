@@ -11,28 +11,28 @@
  */
 
 export const client = {
-  name: 'Small Business Starter',
-  email: 'hello@example.com',
-  phoneForTel: '555-867-5309',
-  phoneFormatted: '(555) 867-5309',
+  name: "I'm The San Tan Handyman",
+  email: 'sthllc12@yahoo.com',
+  phoneForTel: '480-604-7373',
+  phoneFormatted: '(480) 604-7373',
   /** Business / contractor license number. Displayed in the header and footer
    *  as a trust signal. Set to an empty string to hide it. */
-  license: 'Lic# 123456',
+  license: '',
   address: {
-    lineOne: '123 Main Street',
-    lineTwo: 'Suite 100',
-    city: 'Denver',
-    state: 'CO',
-    zip: '80206',
+    // lineOne: '',
+    // lineTwo: '',
+    city: 'San Tan Valley',
+    state: 'AZ',
+    zip: '85140',
     country: 'US',
-    mapLink: 'https://maps.app.goo.gl/example',
+    // mapLink: '',
   },
   socials: {
-    facebook: 'https://www.facebook.com/',
-    instagram: 'https://www.instagram.com/',
-    google: 'https://www.google.com/maps',
+    // facebook: 'https://www.facebook.com/',
+    // instagram: 'https://www.instagram.com/',
+    // google: 'https://www.google.com/maps',
   },
-  domain: 'https://www.example.com',
+  domain: 'https://www.imthesantanhandyman.com',
 } as const;
 
 export type Client = typeof client;

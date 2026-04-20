@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
-import Banner from '../../components/Banner.astro';
+//import Banner from '../../components/Banner.astro';
 import CTA from '../../components/CTA.astro';
 import { getCollection } from 'astro:content';
 import { brand } from '../../config/brand';
@@ -14,7 +14,7 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
 <BaseLayout title="Blog" description={`Tips, guides, and news from ${brand.name}. Stay informed about home maintenance and improvement.`}>
   <Header slot="header" />
 
-  <Banner title="Blog" />
+  <!-- <Banner title="Blog" /> -->
 
   <section class="py-section">
     <div class="mx-auto max-w-site px-4 sm:px-6">

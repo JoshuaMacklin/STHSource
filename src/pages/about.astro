@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import Banner from '../components/Banner.astro';
+//import Banner from '../components/Banner.astro';
 import CTA from '../components/CTA.astro';
 import { Image } from 'astro:assets';
 import { brand } from '../config/brand';
@@ -17,7 +17,7 @@ const team = [
 <BaseLayout title="About Us" description={`Learn about ${brand.name} — our story, team, and commitment to quality service.`}>
   <Header slot="header" />
 
-  <Banner title="About Us" />
+  <!--<Banner title="About Us" /> -->
 
   <!-- Story -->
   <section class="py-section">
@@ -36,17 +36,14 @@ const team = [
         <span class="text-topper font-bold uppercase tracking-widest text-accent">Our Story</span>
         <h2 class="font-heading text-h2 font-bold uppercase text-text">Built on trust, driven by quality</h2>
         <p class="text-text-muted leading-relaxed">
-          What started as a one-person operation has grown into a trusted local team. For over 15 years, we've served homeowners and businesses with reliable, high-quality work — and we plan to keep doing just that for decades to come.
-        </p>
-        <p class="text-text-muted leading-relaxed">
-          Every member of our crew is licensed, insured, and background-checked. We treat your property with the same care we'd give our own, and we stand behind every job with a satisfaction guarantee.
+          With a decade of dedicated experience, I'm The San Tan Handyman is your go-to expert for reliable handyman services in the San Tan Valley, AZ area. We specialize in transforming your home maintenance needs and repair projects, from basic upkeep to complete renovations, into a seamless and stress-free experience. Our commitment to quality workmanship ensures every project, big or small, is handled with meticulous attention to detail. Trust us to help bring your home improvement vision to life, enhancing your living space with professionalism and skill.
         </p>
       </div>
     </div>
   </section>
 
   <!-- Team -->
-  <section class="bg-surface py-section">
+  <!-- <section class="bg-surface py-section">
     <div class="mx-auto max-w-site px-4 sm:px-6">
       <div class="mx-auto mb-10 max-w-2xl text-center">
         <span class="text-topper font-bold uppercase tracking-widest text-accent">Our Team</span>
@@ -72,7 +69,8 @@ const team = [
         ))}
       </div>
     </div>
-  </section>
+  </section> -->
+  
 
   <CTA />
 
