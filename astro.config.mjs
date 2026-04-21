@@ -5,6 +5,7 @@ import sitemap from '@astrojs/sitemap';
 import robotsTxt from 'astro-robots-txt';
 
 export default defineConfig({
+  base: '/STHSource/',
   site: 'https://www.example.com',
   output: 'static',
 
