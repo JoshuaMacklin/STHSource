@@ -37,8 +37,8 @@ import type { ImageMetadata } from 'astro';
 //   2. Uncomment and update the line below
 //   3. Replace the heroImage export at the bottom of this section
 //
-import heroImage from '../assets/images/hero/hero.jpeg';
-export const heroImage = heroImage;
+import heroImage1 from '../assets/images/hero/hero.jpeg';
+export const heroImage = heroImage1;
 
 // export const heroImage: ImageMetadata | undefined = undefined;
 
@@ -50,8 +50,8 @@ export const heroImage = heroImage;
 //   2. Uncomment and update the line below
 //   3. Replace the aboutImage export at the bottom of this section
 //
-import aboutImage from '../assets/images/about/team.jpeg';
-export const aboutImage = aboutImage;
+import aboutImage1 from '../assets/images/about/team.jpeg';
+export const aboutImage = aboutImage1;
 // export const aboutImage: ImageMetadata | undefined = undefined;
 
 // ── Gallery — auto-discovered ─────────────────────────────────────────────────
